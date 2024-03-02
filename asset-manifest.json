@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa665cbc.css",
+    "main.js": "/static/js/main.d73bdc5a.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/logotransparent.png": "/static/media/logotransparent.4b01c473938e5e00d1b1.png",
+    "static/media/lordshiv.png": "/static/media/lordshiv.e814d1b84f78d51d488d.png",
+    "index.html": "/index.html",
+    "main.fa665cbc.css.map": "/static/css/main.fa665cbc.css.map",
+    "main.d73bdc5a.js.map": "/static/js/main.d73bdc5a.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa665cbc.css",
+    "static/js/main.d73bdc5a.js"
+  ]
+}
