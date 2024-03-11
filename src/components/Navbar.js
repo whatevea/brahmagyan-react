@@ -2,6 +2,7 @@ import { useState } from "react"
 import { FaBook, FaCloud, FaList, FaPhone } from "react-icons/fa";
 import { PiInfoBold } from "react-icons/pi";
 import logo from "../logotransparent.png"
+import { Link } from "react-router-dom";
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
     return (
@@ -23,7 +24,7 @@ export default function Navbar() {
 }
 const NavItems = () => {
     return (<>
-        <button className="p-2 hover:border"> <FaBook className="inline" /> Book of Brahmagyan </button>
+        <button className="p-2 hover:border"> <FaBook className="inline" />  <Link to="/"> Book of Brahmagyan </Link> </button>
         <button className="p-2 hover:border"> <PiInfoBold className="inline" /> Introduction</button>
         <button className="p-2 hover:border"><FaList className="inline" /> Chapters </button>
         <button className="p-2 hover:border"> <FaCloud className="inline" /> Something </button>
